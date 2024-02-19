@@ -30,12 +30,12 @@ export default function Navbar (props: { class: string; }) {
       <a onClick={() => setIsNavbar(!isNavbar)} href="#" className="md:hidden absolute right-5 top-4 w-8 h-8 flex items-center justify-center bg-black text-white rounded-md text-3xl pb-0.5">+</a>
       <div onClick={() => setIsNavbar(!isNavbar)} className={isNavbar ? "open toggle-overlay" : "toggle-overlay"}></div>
       <div className={ (isNavbar ? "open" : "") + " nav-mobile md:inline-flex" }>
-        <ul className="flex -mr-4">
+        <ul className="flex -mr-6">
           {menuItemsData.map((menu, index) =>{
             return(
-              <li className="px-4" key={index}>
+              <li className="px-6" key={index}>
                 <Link 
-                  className={router.pathname == menu.url ? "md:text-blue-700 active" : "md:text-black md:hover:text-blue-700 transition-all"}
+                  className={router.pathname == menu.url ? "md:text-blue-600 active" : "md:text-black md:hover:text-blue-600 transition-all"}
                   href={menu.url}
                   onClick={() => setIsNavbar(!isNavbar)}
                 >

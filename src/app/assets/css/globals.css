@@ -49,7 +49,7 @@
           a{
             @apply w-full px-5 py-3 pt-2.5 border-b flex border-b-gray-900 hover:bg-gray-900 transition-all text-white;
             &.active{
-              @apply bg-blue-700;
+              @apply bg-blue-600;
             }
           }
         }
