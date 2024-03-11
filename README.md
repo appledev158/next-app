@@ -36,3 +36,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 https://www.youtube.com/watch?v=wm5gMKuwSYk
+
+https://www.figma.com/proto/EMtaIeAMC5LIR0tRJKrbwm/Diamondrx?type=design&node-id=3116-1347&t=jKPsqxTW0Cd7xFpe-0&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=1%3A2&hide-ui=1
